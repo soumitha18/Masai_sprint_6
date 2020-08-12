@@ -8,20 +8,45 @@ export default class Main extends React.Component {
         super(props)
 
         this.state = {
-            home: false,
-            dog: true,
+            home: true,
+            dog: false,
             account: false
         }
     }
 
+    handleHome = () =>{
+        this.setState({
+            home : true,
+            dog : false,
+            account : false
+        })
+    }
 
+    handleDogs = () =>{
+        this.setState({
+            home : false,
+            dog : true,
+            account : false
+        })
+    }
+
+    handleUser = () =>{
+        this.setState({
+            home : false,
+            dog : false,
+            account : true
+        })
+    }
 
     render() {
         const { home, dog} = this.state
         return (
             <>
                 <div>
-
+                    <span>Dogiee</span>
+                    <button onClick={this.handleHome}>HOME</button>
+                    <button onClick={this.handleDogs}>DOGS</button>
+                    <button onClick={this.handleUser}>USER</button>
                 </div>
                 {
                     home
