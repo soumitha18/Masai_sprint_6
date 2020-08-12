@@ -69,7 +69,7 @@ export default class Home extends React.Component {
                                         <button id="pitbull" onClick={this.toggleStage}>Click to see More</button>
                                     </div>
                                 </div>
-                                <h2 className={`${style.h2} ${style.marginBottom}`}>Want to BUY?</h2>
+                                <h2 className={`${style.h2} ${style.marginBottom}`}>Want to Adopt?</h2>
                                 <div className={style.marginBottom}>
                                     <div className={style.flex}>
                                         <div className={`${style.background} ${style.div1}`}>
@@ -116,7 +116,7 @@ export default class Home extends React.Component {
                                             <p style={{textDecoration:"underline"}}>Chennai</p>
                                             <p style={{textDecoration:"underline"}}>Patna</p>
                                             <p style={{textDecoration:"underline"}}>Chittoor</p>
-                                            <h2>Madhuri Soumitha</h2>
+                                            <h2>Madhuri Soumitha (9876543210)</h2>
                                             <img width="40px" height="40px" src="https://image.flaticon.com/icons/svg/187/187189.svg" alt="Facebook" />
                                             <img style={{marginLeft:"20px"}} width="40px" height="40px" src="https://image.flaticon.com/icons/svg/1384/1384060.svg" alt="YouTube" />
                                             <img style={{marginLeft:"20px"}} width="40px" height="40px" src="https://image.flaticon.com/icons/svg/733/733579.svg" alt="Twitter" />

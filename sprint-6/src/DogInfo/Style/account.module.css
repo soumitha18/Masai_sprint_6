@@ -1,0 +1,100 @@
+ .divForm{
+    text-align: center;
+    width: 30%;
+    margin-left: 35%;
+    padding: 1%;
+    margin-top: 10%;
+}
+
+.divForm > img{
+    margin-left: -20%;
+}
+
+.form{
+    display: flex;
+    flex-direction: row;
+}
+
+.formDiv{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+}
+
+.formDiv > *{
+    margin-top: 2%;
+}
+
+.formDiv > button {
+    border:1px solid teal;
+    background-color: white;
+    color: teal;
+    font-size: large;
+    font-weight: bolder;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 20px;
+}
+
+.formDiv > button:hover, .fixed > button:hover{
+    background-color: teal;
+    color: white;
+}
+
+.buttons{
+    width: 20%;
+    text-align: left; 
+}
+
+.login{
+    background-color: white;
+    color: rgb(216, 100, 120);
+    margin-top: 10%;
+    padding: 10%;
+    padding-top: 80%;
+    padding-bottom: 80%;
+    font-weight: bolder;
+    margin-left: 8%;
+    border: 1px solid rgb(216, 100, 120);
+}
+
+.login:hover, .regis:hover{
+    background-color: rgb(216, 100, 120);
+    color: white;
+}
+
+.regis{
+    background-color: white;
+    color: rgb(216, 100, 120);
+    margin-top: 15%;
+    padding: 10%;
+    padding-top: 30%;
+    padding-bottom:30%;
+    font-weight: bolder;
+    margin-left: 8%;
+    border: 1px solid rgb(216, 100, 120);
+}
+
+.fixed{
+    position: fixed;
+    right: 5%;
+    top: 10%;
+}
+
+.fixed > button{
+    border:1px solid teal;
+    background-color: white;
+    color: teal;
+    font-size: large;
+    font-weight: bolder;
+    padding: 5%;
+    padding-left: 60%;
+    padding-right: 60%;
+    border-radius: 20px;
+}
+
+input:hover{
+    background-color: whitesmoke;
+    padding: 2%;
+    border: 1px solid whitesmoke;
+}

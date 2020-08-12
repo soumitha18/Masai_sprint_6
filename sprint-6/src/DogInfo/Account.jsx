@@ -1,75 +1,119 @@
 import React from "react"
-import style from "./Style/dog.module.css"
+import style from "./Style/account.module.css"
 
 export default class Account extends React.Component {
-    constructor(props){
+    constructor(props) {
         super(props)
         this.state = {
-            email:"",
-            password:"",
-            show:false,
-            arr:[]
+            email: "",
+            password: "",
+            name: "",
+            age: "",
+            address: "",
+            show: false,
+            log: true,
+            user: [],
+            loginUser: []
         }
     }
+
     handleChange = (e) => {
         this.setState({
-          [e.target.name]: e.target.value,
-        });
-      };
-    handleRegister =()=>{
-        this.setState({
-            show:false
+            [e.target.name]: e.target.value,
         })
-    }
-    handleLogin =()=>{
-        this.setState({
-            show:true
-        })
-    }
-    render (){
-       return(
-        <>
-        <div className={style.login_box}>
-            <img width="450px"height="250px"src="./login.webp"/>
-            <div className={style.btn}>
-                <button onClick={this.handleRegister}>Register</button>
-                <button onClick={this.handleLogin}>Login</button>
-            </div>
-            {this.state.show?
-            (
-            <form>
-                <label>Email </label>
-                <input  name="email" value={this.state.email}
-                onChange={this.handleChange}type="text"/>
-                
+    };
 
-                <label>Password</label>
-                    <input name="password" value={this.state.password}
-                onChange={this.handleChange} type="password"/><br/>
-                
-                <input type="submit"value ="Login"/>
-            </form> 
-            ):
-            (
-            <form>
-                <label>Username  </label>
-                <input type="text"/>
-                <label>Email  </label>
-                <input type="text"/>
-            
-                <label> Password  </label>
-                <input type="password"/>
-             <br/>
-               <label>Age</label>
-                <input type="text"/>
-                <label>Address</label>
-                <input type="text"/>
-                <input type="submit"value ="Register"/>
-            </form>   
-            )   
+    handleRegister = () => {
+        this.setState({
+            show: false
+        })
+    }
+
+    handleLogin = () => {
+        this.setState({
+            show: true
+        })
+    }
+
+    addUser = () => {
+        const { name, email, password, age, address, user } = this.state
+        let obj = {
+            name: name,
+            email: email,
+            password: password,
+            age: age,
+            address: address
         }
-        </div>
-        </>
-       )
-}
+
+        this.setState({
+            user: [...user, obj],
+            log: false
+        })
+    }
+
+    userLogin = () => {
+        const { email, password, user } = this.state
+
+        this.setState({
+            loginUser: user.filter(item => (item.email === email && item.password === password)),
+            log: false
+        })
+    }
+
+    userLogout = () => {
+        this.setState({
+            log: true
+        })
+    }
+
+    render() {
+        return (
+            <div style={{ marginTop: "5%" }}>
+                {
+                    this.state.log
+                        ?
+                        <div className={style.divForm}>
+                            <img width="450px" height="250px" src="https://image.flaticon.com/icons/svg/889/889020.svg" alt="Link" />
+                            {
+                                this.state.show
+                                    ?
+                                    <div className={style.form}>
+                                        <div className={style.formDiv}>
+                                            <input name="email" value={this.state.email} onChange={this.handleChange} type="text" placeholder="Enter the Email" />
+                                            <input name="password" value={this.state.password} placeholder="Enter the Password" onChange={this.handleChange} type="password" />
+                                            <button onClick={this.userLogin}>Login</button>
+                                        </div>
+                                        <div className={style.buttons}>
+                                            <button className={style.regis} onClick={this.handleRegister}>Register</button>
+                                        </div>
+                                    </div>
+                                    :
+                                    <div className={style.form}>
+                                        <div className={style.formDiv}>
+                                            <input name="name" value={this.state.name} onChange={this.handleChange} type="text" placeholder="Enter the Name" />
+                                            <input name="email" value={this.state.email} onChange={this.handleChange} type="text" placeholder="Enter the email" />
+                                            <input name="password" value={this.state.password} onChange={this.handleChange} type="password" placeholder="Enter the Password" />
+                                            <input name="password" value={this.state.password} onChange={this.handleChange} type="password" placeholder="Conform Password" />
+                                            <input name="age" value={this.state.age} onChange={this.handleChange} type="text" placeholder="Enter the Age" />
+                                            <input name="address" value={this.state.address} onChange={this.handleChange} type="text" placeholder="Enter the address" />
+                                            <button onClick={this.addUser}>Register</button>
+                                        </div>
+                                        <div className={style.buttons}>
+                                            <button className={style.login} onClick={this.handleLogin}>L<br />o<br />g<br />i<br />n</button>
+                                        </div>
+                                    </div>
+
+                            }
+                        </div>
+                        :
+                        <div>
+
+                            <div className={style.fixed}>
+                                <button onClick={this.userLogout}>logout</button>
+                            </div>
+                        </div>
+                }
+            </div>
+        )
+    }
 }
