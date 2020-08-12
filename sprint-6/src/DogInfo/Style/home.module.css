@@ -1,0 +1,98 @@
+.img{
+    width : 100%; 
+    height: 250px;
+}
+
+.divImg{
+    display: flex;
+    flex-direction: row;
+    background-color: whitesmoke;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 2%;
+}
+
+.divImg > div {
+    display: flex;
+    flex-direction: column;
+    padding: 3%;
+    width: 20%;
+    background-color: white;
+    border-radius: 5px;
+    margin-left:6%;
+}
+
+.divImg > div > button {
+    margin-top: 5%;
+    border:1px solid teal;
+    background-color: white;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-shadow: 10px;
+    border-radius: 20px;
+    color: teal;
+    font-weight: bolder;
+}
+
+.divImg > * > button:hover, .info > * > button:hover{
+    background-color: teal;
+    border: 1px solid teal;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    font-weight: none;
+    margin-bottom: 0%;
+    padding-top: 2%;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    text-align: center
+}
+
+.info > div{
+    width: 25%;
+    margin-left: 3%;
+    padding: 3%;
+}
+
+h3{
+    color: teal;
+}
+
+.info > * > button{
+    background-color: white;
+    border: 1px solid teal;
+    color: teal;
+    font-weight: bolder;
+    padding: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 20px ;
+}
+
+.about {
+    background-color: black;
+    color: white;
+    padding: 1%;
+}
+
+.aboutDiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.aboutInfo{
+    width: 40%;
+    margin-left: 15%;
+    border: 1px solid white;
+}
+
+.aboutImg{
+    width: 20%;
+    margin-left: 10%
+}
