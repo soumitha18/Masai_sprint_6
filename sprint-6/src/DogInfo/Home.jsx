@@ -8,20 +8,20 @@ export default class Home extends React.Component {
 
         this.state = {
             stage: true,
-            dog : ""
+            dog: ""
         }
     }
 
     toggleStage = (e) => {
         this.setState({
             stage: false,
-            dog : e.target.id
+            dog: e.target.id
         })
     }
 
-    toggleStageTrue = () =>{
-        this.setState ({
-            stage : true
+    toggleStageTrue = () => {
+        this.setState({
+            stage: true
         })
     }
 
@@ -54,7 +54,7 @@ export default class Home extends React.Component {
                                         </div>
                                     </div>
                                 </div>
-                                <h2 className={style.h2} style={{background:"whitesmoke"}}>Dogs Available For Adoption</h2>
+                                <h2 className={style.h2} style={{ background: "whitesmoke" }}>Dogs Available For Adoption</h2>
                                 <div className={style.divImg}>
                                     <div>
                                         <img className={style.img} src="https://images.dog.ceo/breeds/dingo/n02115641_10286.jpg" alt="Dingo" />
@@ -69,20 +69,30 @@ export default class Home extends React.Component {
                                         <button id="pitbull" onClick={this.toggleStage}>Click to see More</button>
                                     </div>
                                 </div>
-                                <div>
-                                    <h2 className={style.h2}>Want to BUY?</h2>
-                                    <div className={style.info}>
-                                        
+                                <h2 className={`${style.h2} ${style.marginBottom}`}>Want to BUY?</h2>
+                                <div className={style.marginBottom}>
+                                    <div className={style.flex}>
+                                        <div className={`${style.background} ${style.div1}`}>
+                                            <img src="https://image.flaticon.com/icons/svg/2173/2173800.svg" alt="Happy users" />
+                                        </div>
+                                        <div className={style.infoDiv}>
+
+                                        </div>
                                     </div>
-                                </div>
-                                <div>
-                                    
+                                    <div className={style.flex}>
+                                        <div className={`${style.infoDiv} ${style.div2}`}>
+
+                                        </div>
+                                        <div className={style.background}>
+                                            <img src="https://image.flaticon.com/icons/svg/2930/2930650.svg" alt="Rating" />
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className={style.about}>
                                     <h2 className={style.h2}>About Us</h2>
                                     <div className={style.aboutDiv}>
                                         <div className={style.aboutInfo}>
-
+                                
                                         </div>
                                         <div className={style.aboutImg}>
                                             <img width="100%" height="300px" src="raindog.jpg" alt="rain" />
@@ -92,8 +102,8 @@ export default class Home extends React.Component {
                             </div>
                         </>
                         :
-                        <div style={{marginTop:"5%"}}>
-                            <MoreInfo name={this.state.dog} onClick={this.toggleStageTrue}/>
+                        <div style={{ marginTop: "5%" }}>
+                            <MoreInfo name={this.state.dog} onClick={this.toggleStageTrue} />
                         </div>
 
                 }
