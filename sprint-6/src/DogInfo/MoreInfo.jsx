@@ -17,6 +17,7 @@ export default class MoreInfo extends React.Component{
     render () {
         return (
             <>
+                
             </>
         )
     }
