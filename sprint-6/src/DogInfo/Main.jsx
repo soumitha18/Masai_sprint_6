@@ -9,8 +9,8 @@ export default class Main extends React.Component {
 
         this.state = {
             home: false,
-            dog: false,
-            account: true
+            dog: true,
+            account: false
         }
     }
 
