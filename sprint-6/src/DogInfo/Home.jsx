@@ -35,26 +35,26 @@ export default class Home extends React.Component {
                             <div>
                                 <img width="100%" src="dogs.jpg" alt="dog" />
                                 <div>
-                                    <h2>About the Planning to Adopt?</h2>
+                                    <h2 className={style.h2}>About the Planning to Adopt?</h2>
                                     <div className={style.info}>
                                         <div>
-                                            <h3>Check the Dogs</h3>
+                                            <h3 className={style.h3}>Check the Dogs</h3>
                                             <p>We are providing many dogs for you to adopt</p>
                                             <button onClick={this.props.onClick}>Click</button>
                                         </div>
                                         <div>
-                                            <h3>COVID-19 Resources</h3>
+                                            <h3 className={style.h3}>COVID-19 Resources</h3>
                                             <p>Get the latest on adoption processes, learn how local shelters and rescue groups are adapting and find out what you can do to help dogs and cats in need right now. </p>
                                             <button>Click</button>
                                         </div>
                                         <div>
-                                            <h3>Check the Dogs</h3>
+                                            <h3 className={style.h3}>Check the Dogs</h3>
                                             <p>We are providing many dogs for you to adopt</p>
                                             <button>Click</button>
                                         </div>
                                     </div>
                                 </div>
-                                <h2 style={{background:"whitesmoke"}}>Dogs Available For Adoption</h2>
+                                <h2 className={style.h2} style={{background:"whitesmoke"}}>Dogs Available For Adoption</h2>
                                 <div className={style.divImg}>
                                     <div>
                                         <img className={style.img} src="https://images.dog.ceo/breeds/dingo/n02115641_10286.jpg" alt="Dingo" />
@@ -70,7 +70,7 @@ export default class Home extends React.Component {
                                     </div>
                                 </div>
                                 <div>
-                                    <h2>Want to BUY?</h2>
+                                    <h2 className={style.h2}>Want to BUY?</h2>
                                     <div className={style.info}>
                                         
                                     </div>
@@ -79,7 +79,7 @@ export default class Home extends React.Component {
                                     
                                 </div>
                                 <div className={style.about}>
-                                    <h2>About Us</h2>
+                                    <h2 className={style.h2}>About Us</h2>
                                     <div className={style.aboutDiv}>
                                         <div className={style.aboutInfo}>
 
