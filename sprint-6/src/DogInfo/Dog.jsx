@@ -66,7 +66,7 @@ export default class Home extends React.Component {
                     images: []
                 },
                 {
-                    name: "shiba",
+                    name: "dingo",
                     img: "",
                     images: []
                 },

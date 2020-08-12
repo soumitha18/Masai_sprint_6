@@ -89,7 +89,6 @@
 .aboutInfo{
     width: 40%;
     margin-left: 15%;
-    border: 1px solid white;
 }
 
 .aboutImg{
@@ -121,5 +120,20 @@
 }
 
 .div2{
-    margin-left: 22%;
+    margin-left: 15%;
+}
+
+.rating{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.rating > div{
+    width: 25%;
+}
+
+.rating > div > p > span{
+    font-weight: bolder;
+    font-size: 25px;
 }

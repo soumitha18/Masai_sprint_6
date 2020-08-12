@@ -1,6 +1,6 @@
 [
     {
-        "name":"Hound",
+        "name":"hound",
         "Daily sleep":"18 hours",
         "Speed":"40 Km/h to 56 Km/h",
         "Lifespan":"11 - 12 years",
@@ -9,7 +9,7 @@
     
     },
     {
-        "name":"Airedale",
+        "name":"airedale",
         "Temperament": "Intelligent, Outgoing, Alert, Friendly, Confident, Courageous",
         "Speed":"40 Km/h to 56 Km/h",
         "Lifespan":"10 - 12 years",
@@ -17,7 +17,7 @@
     
     },
     {
-        "name":"Boxer",
+        "name":"boxer",
         "Temperament": "Devoted, Energetic, Cheerful, Intelligent, Fearless, Loyal, Bright, Playful, Friendly, Confident, Calm, Brave ",
         "Colors": "White, Brindle, Fawn",
         "Lifespan":"10 - 12 years",
@@ -33,7 +33,7 @@
     
     },
     {
-        "name":"Akita",
+        "name":"akita",
         "Temperament": "Devoted, Energetic, Cheerful, Intelligent, Fearless, Loyal, Bright, Playful, Friendly, Confident, Calm, Brave ",
         "Colors": "White, Brindle, Fawn",
         "Lifespan":"10 - 15 years",
@@ -41,7 +41,7 @@
     
     },
     {
-        "name":"Doberman",
+        "name":"doberman",
         "Temperament": "Obedient, Energetic, Intelligent, Fearless, Loyal, Alert, Confident",
         "Colors": " White, Black, Fawn, Red, Black & Rust, Blue, Red & Rust, Fawn & Rust, Blue & Rus",
         "Lifespan":"10 - 13 years",
@@ -49,7 +49,7 @@
     
     },
     {
-        "name":"Briard",
+        "name":"briard",
         "Temperament": "Obedient, Energetic, Intelligent, Fearless, Loyal, Alert, Confident",
         "Colors": " Black, White, Tawny, Grey, Black & Tawny, Black & Gray",
         "Lifespan":"10 - 12 years",
@@ -57,159 +57,156 @@
     
     },
     {
-        "name":"Whippet",
+        "name":"whippet",
         "Temperament": "Obedient, Energetic, Intelligent, Fearless, Loyal, Alert, Confident",
         "Colors": " Black, White, Tawny, Grey, Black & Tawny, Black & Gray",
         "Speed":"56km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"The whippet is similar to a small greyhound.Like a greyhound, the whippet is built for speed. The legs are long and slender, the chest deep, the abdomen tucked up, the body relatively narrow, and the whole dog is muscular. The long whip-like tail is naturally carried low. The eyes are large and lustrous.",
+        "Description":"The whippet is similar to a small greyhound.Like a greyhound, the whippet is built for speed. The legs are long and slender, the chest deep, the abdomen tucked up, the body relatively narrow, and the whole dog is muscular. The long whip-like tail is naturally carried low. The eyes are large and lustrous."
     
     },
     {
-        "name":"Lhasa",
+        "name":"lhasa",
         "Temperament": "Obedient, Devoted, Energetic, Lively, Intelligent, Steady, Fearless, Spirited, Assertive, Alert, Playful, Friendly",
         "Colors": " Black, White, Dark Grizzle, Honey (Color), Sandy, Golden, Brown",
         "Speed":"56km/h",
         "Lifespan":"12 - 14 years",
-        "Description":"The Lhasa Apso is a non-sporting dog breed originating in Tibet. It was bred as an interior sentinel in the Buddhist monasteries, to alert the monks to any intruders who entered. Lhasa is the capital city of Tibet, and apso is a word from the Tibetan language.",
+        "Description":"The Lhasa Apso is a non-sporting dog breed originating in Tibet. It was bred as an interior sentinel in the Buddhist monasteries, to alert the monks to any intruders who entered. Lhasa is the capital city of Tibet, and apso is a word from the Tibetan language."
     
     },
     {
-        "name":"Eskimo",
+        "name":"eskimo",
         "Temperament": "Intelligent, Reserved, Alert, Friendly, Protective",
         "Colors": " White, Biscuit",
         "Speed":"56km/h",
         "Lifespan":"13 - 15 years",
-        "Description":"An Eskie was the first dog known to ever walk a tightrope. Today, Eskies are still known for the wide variety of tricks they can perform. Like the Poodle, the American Eskimo Dog comes in three sizes: standard, miniature, and toy. The standard, though, usually weighs no more than 35 pounds.",
+        "Description":"An Eskie was the first dog known to ever walk a tightrope. Today, Eskies are still known for the wide variety of tricks they can perform. Like the Poodle, the American Eskimo Dog comes in three sizes: standard, miniature, and toy. The standard, though, usually weighs no more than 35 pounds."
     
     },
     {
-        "name":"Saluki",
+        "name":"saluki",
         "Temperament": "Aloof, Intelligent, Reserved, Quiet",
         "Colors": " White, Biscuit",
         "Speed":"69km/h",
         "Lifespan":"12 - 14 years",
-        "Description":"The saluki is decidedly a one-family dog, tending to be aloof, or even shy, with strangers. This is a devoted, but not particularly demonstrative, breed that will relish sitting by your side, not on your lap. Salukis are quiet at home, extremely gentle with children, and good with other dogs.",
+        "Description":"The saluki is decidedly a one-family dog, tending to be aloof, or even shy, with strangers. This is a devoted, but not particularly demonstrative, breed that will relish sitting by your side, not on your lap. Salukis are quiet at home, extremely gentle with children, and good with other dogs."
     
     },
     {
-        "name":"Shiba",
+        "name":"dingo",
         "Temperament": " Charming, Keen, Fearless, Alert, Confident, Faithful",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"The Shiba is the smallest of the Japanese native breeds of dog and was originally developed for hunting by sight and scent in the dense undergrowth of Japan's mountainous areas. Alert and agile with keen senses, he is also an excellent watchdog and companion. His frame is compact with well-developed muscles.",
+        "Description":"The Shiba is the smallest of the Japanese native breeds of dog and was originally developed for hunting by sight and scent in the dense undergrowth of Japan's mountainous areas. Alert and agile with keen senses, he is also an excellent watchdog and companion. His frame is compact with well-developed muscles."
     
     },
     {
-        "name":"Maltese",
+        "name":"maltese",
         "Temperament": " Charming, Keen, Fearless, Alert, Confident, Faithful",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"Maltese are affectionate toy dogs weighing less than seven pounds, covered by a long, straight, silky coat. ... They make alert watchdogs who are fearless in a charming toy-dog way, and they are game little athletes on the agility course. Maltese are low-shedding, long-lived, and happy to make new friends of all ages",
-    
+        "Description":"Maltese are affectionate toy dogs weighing less than seven pounds, covered by a long, straight, silky coat. ... They make alert watchdogs who are fearless in a charming toy-dog way, and they are game little athletes on the agility course. Maltese are low-shedding, long-lived, and happy to make new friends of all ages"
     },
     {
-        "name":"Vizsla",
+        "name":"vizsla",
         "Temperament": " Charming, Keen, Fearless, Alert, Confident, Faithful",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"The Vizsla is a multi-purpose dog that is suitable for work on upland game, on rabbits, and for waterfowl retrieving. The Vizsla is essentially Pointer in type with characteristics of pointer and retriever. The Vizsla was recognized by the American Kennel Club in 1960 and is its 116th breed.",
+        "Description":"The Vizsla is a multi-purpose dog that is suitable for work on upland game, on rabbits, and for waterfowl retrieving. The Vizsla is essentially Pointer in type with characteristics of pointer and retriever. The Vizsla was recognized by the American Kennel Club in 1960 and is its 116th breed."
     
     },
     
     {
-        "name":"African",
+        "name":"african",
         "Temperament": " Charming, Keen, Fearless, Alert, Confident, Faithful",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"The African wild dog is known by many names, including Cape hunting dog or painted dog. Its scientific name, Lycaon pictus, means “painted wolf,” referring to the animal's irregular, mottled coat, which features patches of red, black, brown, white, and yellow fur.",
+        "Description":"The African wild dog is known by many names, including Cape hunting dog or painted dog. Its scientific name, Lycaon pictus, means “painted wolf,” referring to the animal's irregular, mottled coat, which features patches of red, black, brown, white, and yellow fur."
     
     },
     {
-        "name":"Papillon",
+        "name":"papillon",
         "Temperament": " Charming, Keen, Fearless, Alert, Confident, Faithful",
         "Colors": " White, White & Chocolate, Fawn & White, Sable, Black & White, Red & White",
         "Speed":"69km/h",
         "Lifespan":"13 - 15 years",
-        "Description":"The Pembroke Welsh Corgi is a cattle herding dog breed that originated in Pembrokeshire, Wales. It is one of two breeds known as a Welsh Corgi. The other is the Cardigan Welsh Corgi, and both descend from the line of northern spitz-type dogs.separate and distinct breed from the Cardigan",
+        "Description":"The Pembroke Welsh Corgi is a cattle herding dog breed that originated in Pembrokeshire, Wales. It is one of two breeds known as a Welsh Corgi. The other is the Cardigan Welsh Corgi, and both descend from the line of northern spitz-type dogs.separate and distinct breed from the Cardigan"
     
     },
     {
-        "name":"Pembroke",
+        "name":"pembroke",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"The Papillon is a small, friendly, elegant toy dog of fine-boned structure, light, dainty and of lively action; distinguished from other breeds by its beautiful butterfly-like ears.",
+        "Description":"The Papillon is a small, friendly, elegant toy dog of fine-boned structure, light, dainty and of lively action; distinguished from other breeds by its beautiful butterfly-like ears."
     
     },
     {
-        "name":"Pitbull",
+        "name":"pitbull",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"Pit bull is the common name for a type of dog descended from bulldogs and terriers. ... Many of these breeds were originally developed as fighting dogs from crossbreeding bull-baiting dogs (used to hold the faces and heads of larger animals such as bulls) and terriers.",
+        "Description":"Pit bull is the common name for a type of dog descended from bulldogs and terriers. ... Many of these breeds were originally developed as fighting dogs from crossbreeding bull-baiting dogs (used to hold the faces and heads of larger animals such as bulls) and terriers."
     
     },
     {
-        "name":"Redbone",
+        "name":"redbone",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"The Redbone descends from handsome red foxhounds brought to America by Scottish immigrants in the late 1700s and Red Irish Foxhounds were imported before the Civil War. Redbone breeders, for a period of several years, concentrated on breeding a nearly solid-colored, flashy, red dog, bred also for looks.",
+        "Description":"The Redbone descends from handsome red foxhounds brought to America by Scottish immigrants in the late 1700s and Red Irish Foxhounds were imported before the Civil War. Redbone breeders, for a period of several years, concentrated on breeding a nearly solid-colored, flashy, red dog, bred also for looks."
     
     },
     {
-        "name":"Chow",
+        "name":"chow",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"Chows are powerful, compactly built dogs standing as high as 20 inches at the shoulder. ... Chows can have rough or smooth coats of red, black, blue, cinnamon, or cream. Owners say Chows are the cleanest of dogs: They housebreak easily, have little doggy odor, and are known to be as fastidious as cats.",
+        "Description":"Chows are powerful, compactly built dogs standing as high as 20 inches at the shoulder. ... Chows can have rough or smooth coats of red, black, blue, cinnamon, or cream. Owners say Chows are the cleanest of dogs: They housebreak easily, have little doggy odor, and are known to be as fastidious as cats."
     
     },
 
     {
-        "name":"Cairn",
+        "name":"cairn",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"The Cairn Terrier dog breed is a small working terrier developed on the Isle of Skye in Scotland. Farmers used them to rid their property of vermin, and they needed a dog with courage, tenacity, and intelligence—characteristics still found in today's Cairn.",
+        "Description":"The Cairn Terrier dog breed is a small working terrier developed on the Isle of Skye in Scotland. Farmers used them to rid their property of vermin, and they needed a dog with courage, tenacity, and intelligence—characteristics still found in today's Cairn."
     
     },
     {
-        "name":"Havanese",
+        "name":"havanese",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"The Havanese is a small, sturdy dog of immense charm. The native dog of Cuba, he is beloved as a friendly, intelligent and playful companion. He is slightly longer than tall, with a long, untrimmed, double coat. ... These characteristics of temperament, coat, structure and gait are essential to type.",
+        "Description":"The Havanese is a small, sturdy dog of immense charm. The native dog of Cuba, he is beloved as a friendly, intelligent and playful companion. He is slightly longer than tall, with a long, untrimmed, double coat. ... These characteristics of temperament, coat, structure and gait are essential to type."
     
     },
     {
-        "name":"Kelpie",
+        "name":"kelpie",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"He has a natural instinct and aptitude for working in sheep, whether it be in open fields or enclosed yards. This breed originated from Collie type dogs imported from Scotland, but was developed to withstand the harsh heat and dry conditions of the vast open spaces of Australia.",
+        "Description":"He has a natural instinct and aptitude for working in sheep, whether it be in open fields or enclosed yards. This breed originated from Collie type dogs imported from Scotland, but was developed to withstand the harsh heat and dry conditions of the vast open spaces of Australia."
     
     }, {
-        "name":"Labrador",
+        "name":"labrador",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
         "Speed":"69km/h",
         "Lifespan":"12 - 15 years",
-        "Description":"The Labrador Retriever, Labrador, or Lab is a medium-large breed of retriever-gun dog. The Labrador is the most popular breed of dog in many countries around the world.",
+        "Description":"The Labrador Retriever, Labrador, or Lab is a medium-large breed of retriever-gun dog. The Labrador is the most popular breed of dog in many countries around the world."
     
     }
-
-
 ]

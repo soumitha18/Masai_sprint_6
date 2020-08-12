@@ -32,3 +32,8 @@
     font-weight: bolder;
     border-radius: 20px;
 }
+
+.more:hover{
+    background-color: teal;
+    color: white;
+}

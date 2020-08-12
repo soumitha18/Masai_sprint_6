@@ -14,3 +14,25 @@
 .center{
     text-align: center;
 }
+
+.btns{
+    text-align: center;
+}
+
+.btns > button {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    border: 1px solid teal;
+    color: teal;
+    font-weight: bolder;
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 30px;
+}
+
+.btns > button:hover{
+    background-color: teal;
+    color: white;
+}

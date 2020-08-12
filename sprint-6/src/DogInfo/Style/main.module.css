@@ -24,9 +24,9 @@
 }   
 
 .btn1:hover , .btn2:hover, .btn3:hover{
-    color: white;
-    background-color: teal;
-    border: 1px solid teal;
+    color: teal;
+    background-color: white;
+    border: 1px solid white;
 }
 
 .logo{
