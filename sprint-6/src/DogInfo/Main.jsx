@@ -52,7 +52,7 @@ export default class Main extends React.Component {
                 {
                     home
                         ?
-                        <Home /> 
+                        <Home onClick={this.handleDogs} /> 
                         : 
                         dog
                             ?
