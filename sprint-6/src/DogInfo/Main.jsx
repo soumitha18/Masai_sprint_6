@@ -2,6 +2,7 @@ import React from "react"
 import Home from "./Home"
 import Dog from "./Dog"
 import Account from "./Account"
+import style from "./Style/main.module.css"
 
 export default class Main extends React.Component {
     constructor(props) {
@@ -42,11 +43,11 @@ export default class Main extends React.Component {
         const { home, dog} = this.state
         return (
             <>
-                <div>
-                    <span>Dogiee</span>
-                    <button onClick={this.handleHome}>HOME</button>
-                    <button onClick={this.handleDogs}>DOGS</button>
-                    <button onClick={this.handleUser}>USER</button>
+                <div className={style.nav}>
+                    <span className={style.logo}>Dogiee</span>
+                    <button className={style.btn1} onClick={this.handleHome}>HOME</button>
+                    <button className={style.btn2} onClick={this.handleDogs}>DOGS</button>
+                    <button className={style.btn3} onClick={this.handleUser}>USER</button>
                 </div>
                 {
                     home

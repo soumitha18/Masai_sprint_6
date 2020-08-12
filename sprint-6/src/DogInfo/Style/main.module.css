@@ -1,0 +1,32 @@
+.nav{
+    background-color: whitesmoke;
+    padding: 1%;
+}
+
+.btn1{
+    margin-left: 73%;
+}
+
+.btn1, .btn2, .btn3{
+    background-color: whitesmoke;
+    color: black;
+    border: 1px solid whitesmoke;
+    padding: 0.5%;
+    font-weight: bolder;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 50px;
+}   
+
+.btn1:hover , .btn2:hover, .btn3:hover{
+    color: white;
+    background-color: teal;
+    border: 1px solid teal;
+}
+
+.logo{
+    color: teal;
+    font-weight: bolder;
+    font-size: 200%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
