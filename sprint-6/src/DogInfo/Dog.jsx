@@ -178,6 +178,7 @@ export default class Home extends React.Component {
                         ?
                         <>
                             <div className={style.marginTop}>
+                                <h2 >DOGS FOR ADOPTION</h2>
                                 {this.state.data.map((item,i) => (
                                     <div className={style.div} key={item.name}>
                                         <img  className={style.img} src={item.img} alt={i} />
