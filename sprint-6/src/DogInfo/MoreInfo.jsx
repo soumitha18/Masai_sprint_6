@@ -1,5 +1,6 @@
 import React from "react"
 import axios from "axios"
+import style from "./Style/more.module.css"
 
 export default class MoreInfo extends React.Component {
     constructor(props) {
@@ -28,10 +29,11 @@ export default class MoreInfo extends React.Component {
             <>
                 <button onClick={this.props.onClick}>Back</button>
                 <div>
+                    <h2 className={style.center}>Relative Photos</h2>
                     {
                         this.state.data.map((item,i)=>(
-                            <div key={i}>
-                                <img src={item} alt={i} />
+                            <div className={style.page} key={i}>
+                                <img className={style.imgDog} src={item} alt={i} />
                             </div>
                         ))
                     }

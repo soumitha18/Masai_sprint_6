@@ -1,0 +1,16 @@
+.page{
+    float: left;
+    width: 20%;
+    margin-bottom: 3%;
+    margin-left: 4.5%;
+}
+
+.imgDog{
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.center{
+    text-align: center;
+}

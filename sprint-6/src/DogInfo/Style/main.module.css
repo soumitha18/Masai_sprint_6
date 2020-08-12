@@ -8,7 +8,7 @@
     border-bottom: 2px solid white;
 }
 
-.btn1{
+.btn1, .active1{
     margin-left: 73%;
 }
 
@@ -34,4 +34,15 @@
     font-weight: bolder;
     font-size: 200%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.active1,.active{
+    background-color: teal;
+    color: white;
+    border: 1px solid teal;
+    padding: 0.5%;
+    font-weight: bolder;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 50px;
 }
