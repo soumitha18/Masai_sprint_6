@@ -32,3 +32,45 @@
     font-weight: bolder;
     border-radius: 20px;
 }
+form{
+    padding:10px;
+    text-align:center
+    
+}
+label{
+    display:block;
+    margin:5px;
+    font-size:24px;
+    
+}
+.btn{
+    text-align:center;
+    padding:10px;
+    margin-left:5px; 
+    
+}
+button{
+    background-color: burlywood;
+    padding:15px;
+    width:150px
+}
+input:hover{
+    background-color:gainsboro
+}
+input[type= submit]{
+    padding:10px;
+    width:250px;
+    background-color: lightseagreen;
+    text-align:center;
+    margin:10px
+ 
+}
+.login_box{
+    border:1px solid grey;
+    width:30%;
+    height:100%;
+    text-align:center;
+    margin-left:30%;
+    margin-top:10%
+}
+
