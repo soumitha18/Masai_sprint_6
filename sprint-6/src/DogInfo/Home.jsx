@@ -25,6 +25,10 @@ export default class Home extends React.Component {
         })
     }
 
+    handleUser = (e) =>{
+        this.props.userPage(e)
+    }
+
     render() {
         return (
             <>
@@ -130,7 +134,7 @@ export default class Home extends React.Component {
                         </>
                         :
                         <div style={{ marginTop: "5%" }}>
-                            <MoreInfo name={this.state.dog} onClick={this.toggleStageTrue} />
+                            <MoreInfo id={this.state.dog} handle={this.handleUser} name={this.state.dog} onClick={this.toggleStageTrue} />
                         </div>
 
                 }

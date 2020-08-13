@@ -31,7 +31,7 @@ export default class MoreInfo extends React.Component {
             <>
                 <div className={style.btns}>
                     <button onClick={this.props.onClick}>Back</button>
-                    <button >Book</button>
+                    <button id={this.state.name} onClick={this.props.handle}>Book</button>
                 </div>
                 <div>
                     {

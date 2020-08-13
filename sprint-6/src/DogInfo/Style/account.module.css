@@ -99,3 +99,26 @@ input:hover{
     padding: 2%;
     border: 1px solid whitesmoke;
 }
+
+.userCard{
+    width: 30%;
+    margin-left: 33%;
+    display: flex;
+    margin-top: 8%;
+    flex-direction: row;
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    padding: 2%;
+    color: teal;
+    box-shadow: 20px;
+}
+
+.userCard > div:nth-child(2){
+    margin-left: 5%;
+}
+
+.profile{
+    width:100px; 
+    height:100px;
+    margin-top: 25%
+}

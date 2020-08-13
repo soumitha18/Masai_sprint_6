@@ -169,6 +169,11 @@ export default class Home extends React.Component {
                 .catch(err => console.log(err))
         }
     }
+
+    handleUser = (e) =>{
+        this.props.onClick(e)
+    }
+
     render() {
 
         return (
@@ -190,7 +195,7 @@ export default class Home extends React.Component {
                         </>
                         :
                         <div style={{marginTop:"5%"}}>
-                            <MoreInfo name={this.state.active} onClick={this.toggleStageTrue}/>
+                            <MoreInfo id={this.state.active} handle={this.handleUser} name={this.state.active} onClick={this.toggleStageTrue}/>
                         </div>
                 }
 

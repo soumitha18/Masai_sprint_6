@@ -11,7 +11,8 @@ export default class Main extends React.Component {
         this.state = {
             home: true,
             dog: false,
-            account: false
+            account: false,
+            active: ""
         }
     }
 
@@ -31,11 +32,13 @@ export default class Main extends React.Component {
         })
     }
 
-    handleUser = () =>{
+    handleUser = (e) =>{
+        console.log(e.target.id)
         this.setState({
             home : false,
             dog : false,
-            account : true
+            account : true,
+            active: e.target.id
         })
     }
 
@@ -52,13 +55,13 @@ export default class Main extends React.Component {
                 {
                     home
                         ?
-                        <Home onClick={this.handleDogs} /> 
+                        <Home userPage={this.handleUser} onClick={this.handleDogs} /> 
                         : 
                         dog
                             ?
-                            <Dog />
+                            <Dog  onClick={this.handleUser}/>
                             :
-                            <Account />
+                            <Account dogName={this.state.active} />
                 }
 
             </>

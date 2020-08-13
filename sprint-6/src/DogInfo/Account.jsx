@@ -1,4 +1,6 @@
 import React from "react"
+import axios from "axios"
+import data from "../dogInfo.json"
 import style from "./Style/account.module.css"
 
 export default class Account extends React.Component {
@@ -13,7 +15,10 @@ export default class Account extends React.Component {
             show: false,
             log: true,
             user: [],
-            loginUser: []
+            loginUser: [],
+            active: this.props.dogName,
+            dogImg: "",
+            dogInfo: []
         }
     }
 
@@ -47,17 +52,31 @@ export default class Account extends React.Component {
 
         this.setState({
             user: [...user, obj],
-            log: false
+            show: true
         })
+        alert("Registered successfully!")
+        this.remove()
     }
 
     userLogin = () => {
         const { email, password, user } = this.state
 
-        this.setState({
-            loginUser: user.filter(item => (item.email === email && item.password === password)),
-            log: false
-        })
+        let item = []
+        item = user.filter(item => (item.email === email && item.password === password))
+
+        if (item.length === 0) {
+            alert("You are not registered yet!")
+            this.handleRegister()
+            return
+        }
+        else {
+            alert("Your are Login Successfully! ")
+            this.setState({
+                loginUser: item,
+                log: false
+            })
+        }
+        this.remove()
     }
 
     userLogout = () => {
@@ -66,7 +85,32 @@ export default class Account extends React.Component {
         })
     }
 
+    remove = () => {
+        this.setState({
+            email: "",
+            password: "",
+            name: "",
+            age: "",
+            address: "",
+        })
+    }
+
+    componentDidMount() {
+        if (this.state.active !== "") {
+            axios.get(`https://dog.ceo/api/breed/${this.state.active}/images/random`)
+                .then(res => res.data)
+                .then(res =>
+                    this.setState({
+                        dogImg: res.message,
+                        dogInfo: data.filter(item => item.name === this.state.active)
+                    })
+                )
+        }
+    }
+
     render() {
+        const { loginUser, dogImg, dogInfo } = this.state
+
         return (
             <div style={{ marginTop: "5%" }}>
                 {
@@ -99,7 +143,7 @@ export default class Account extends React.Component {
                                             <button onClick={this.addUser}>Register</button>
                                         </div>
                                         <div className={style.buttons}>
-                                            <button className={style.login} onClick={this.handleLogin}>L<br/><br />O<br/><br />G<br/><br />I<br/><br />N</button>
+                                            <button className={style.login} onClick={this.handleLogin}>L<br /><br />O<br /><br />G<br /><br />I<br /><br />N</button>
                                         </div>
                                     </div>
 
@@ -107,9 +151,27 @@ export default class Account extends React.Component {
                         </div>
                         :
                         <div>
-
                             <div className={style.fixed}>
                                 <button onClick={this.userLogout}>LogOut</button>
+                            </div>
+                            <div className={style.userCard}>
+                                <div>
+                                    <img className={style.profile} src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/800px-User_icon_2.svg.png" alt="User" />
+                                </div>
+                                <div>
+                                    <h2>{loginUser[0].name} <span>({loginUser[0].age} years)</span></h2>
+                                    <h3>{loginUser[0].email}</h3>
+                                    <h4>Address : {loginUser[0].address}</h4>
+                                </div>
+                            </div>
+                            <hr />
+                            <div>
+                                <div>
+                                    <img />
+                                </div>
+                                <div>
+                                    
+                                </div>
                             </div>
                         </div>
                 }
