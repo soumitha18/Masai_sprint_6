@@ -99,7 +99,7 @@ export default class Account extends React.Component {
                                             <button onClick={this.addUser}>Register</button>
                                         </div>
                                         <div className={style.buttons}>
-                                            <button className={style.login} onClick={this.handleLogin}>L<br />o<br />g<br />i<br />n</button>
+                                            <button className={style.login} onClick={this.handleLogin}>L<br/><br />O<br/><br />G<br/><br />I<br/><br />N</button>
                                         </div>
                                     </div>
 
@@ -109,7 +109,7 @@ export default class Account extends React.Component {
                         <div>
 
                             <div className={style.fixed}>
-                                <button onClick={this.userLogout}>logout</button>
+                                <button onClick={this.userLogout}>LogOut</button>
                             </div>
                         </div>
                 }

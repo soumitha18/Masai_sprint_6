@@ -51,9 +51,10 @@
     color: rgb(216, 100, 120);
     margin-top: 10%;
     padding: 10%;
-    padding-top: 80%;
-    padding-bottom: 80%;
+    padding-top: 20%;
+    padding-bottom: 20%;
     font-weight: bolder;
+    font-size: 20px;
     margin-left: 8%;
     border: 1px solid rgb(216, 100, 120);
 }
