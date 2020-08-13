@@ -1,0 +1,44 @@
+.payment{
+    display:flex;
+    flex-direction:row;
+    width:80%;
+    margin-left:10%;
+    text-align:center;
+    margin-top: 5%;
+    background-color: whitesmoke;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.userPart{
+
+}
+
+.paymentForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.paymentForm > *{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 1%;
+}
+
+.paymentForm > button{
+    background-color: white;
+    color: green;
+    border: 1px solid green;
+    padding: 1%;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.paymentForm > button:hover{
+    background-color: green;
+    color: white;
+}
+
+.dogPart{
+
+}

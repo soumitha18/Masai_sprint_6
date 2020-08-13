@@ -104,7 +104,7 @@ export default class Account extends React.Component {
     }
 
     finalClick = () =>{
-        alert(`Thanks for Adopting ${this.state.name}. we will catch you soon!`)
+        alert(`Thanks for Adopting ${this.state.loginUser[0].name}. We will contact you shortly!32 `)
         this.props.handle()
     }
 
