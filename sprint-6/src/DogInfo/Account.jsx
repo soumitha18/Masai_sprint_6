@@ -104,7 +104,12 @@ export default class Account extends React.Component {
     }
 
     finalClick = () =>{
-        alert(`Thanks for Adopting ${this.state.loginUser[0].name}. We will contact you shortly!32 `)
+        alert(`Thanks for Adopting ${this.state.loginUser[0].name}. We will contact you shortly! `)
+        this.props.handle()
+    }
+
+    cancel = () =>{
+        alert("Thanks For Watching!")
         this.props.handle()
     }
 
@@ -129,7 +134,7 @@ export default class Account extends React.Component {
                 {
                     this.state.payment
                         ?
-                            <Payment info={dogInfo} img={dogImg} user={loginUser} onClick={this.finalClick} />
+                            <Payment info={dogInfo} img={dogImg} user={loginUser} onCancel={this.cancel} onClick={this.finalClick} />
                         :
                         this.state.log
                             ?

@@ -26,7 +26,7 @@ export default class Payment extends React.Component {
         const { user, info, img } = this.state
         return (
             <>
-                <h2 style={{textAlign:"center"}}>PAYMENT</h2>
+                <h1 className={style.pay}>PAYMENT</h1>
                 <div className={style.payment}>
                     <div className={style.userPart} style={{ width: "25%" }}>
                         <h3>User Details</h3>
@@ -41,7 +41,8 @@ export default class Payment extends React.Component {
                         <input name="exy" placeholder="Enter the Expiry Year" />
                         <input name="cvv"  placeholder="Enter the CVV" />
                         <h2>Total : ₹{info[0].prize}</h2>
-                        <button onClick={this.props.onClick}>Pay</button>
+                        <button className={style.payButton} onClick={this.props.onClick}>Pay</button>
+                        <button className={style.cancel} onClick={this.props.onCancel}>Cancel</button>
                     </div>
                     <div className={style.dogPart} style={{ width: "25%" }}>
                         <img width="200px" height="200px" style={{ borderRadius: "100px" }} src={img} alt="dog" />
