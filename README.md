@@ -1,5 +1,4 @@
-# Masai_sprint_6
-
+# Dog Galore
 
 # Pet Website For Adoption
 
