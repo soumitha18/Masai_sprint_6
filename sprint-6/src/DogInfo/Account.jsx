@@ -95,6 +95,11 @@ export default class Account extends React.Component {
         })
     }
 
+    confirm = () =>{
+        alert(`Thanks for Booking ${this.state.name}. We will contact you shortly!`)
+        this.props.handle()
+    }
+
     componentDidMount() {
         if (this.state.active !== "") {
             axios.get(`https://dog.ceo/api/breed/${this.state.active}/images/random`)
@@ -164,13 +169,19 @@ export default class Account extends React.Component {
                                     <h4>Address : {loginUser[0].address}</h4>
                                 </div>
                             </div>
-                            <hr />
-                            <div>
+                            <hr className={style.hr} />
+                            <h2 className={style.text}>Adopted Dog Details</h2>
+                            <div className={style.flex}>
                                 <div>
-                                    <img />
+                                    <img className={style.dogImg} width="400px" height="400px" src={dogImg} alt="DogImage"/>
                                 </div>
-                                <div>
-                                    
+                                <div className={style.dogInfo}>
+                                    <h2>{dogInfo[0].Name} ({dogInfo[0].Speed})</h2>
+                                    <small>{dogInfo[0].Temperament}</small>
+                                    <p><span>Colors Available :</span> {dogInfo[0].Colors} </p>
+                                    <p><span>LifeSpan : </span>{dogInfo[0].Lifespan}</p>
+                                    <p>{dogInfo[0].Description}</p>
+                                    <button onClick={this.confirm}>Confirm</button>
                                 </div>
                             </div>
                         </div>

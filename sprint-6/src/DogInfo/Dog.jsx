@@ -11,126 +11,149 @@ export default class Home extends React.Component {
             stage: true,
             data: [
                 {
+                    Name:"HOUND",
                     name: "hound",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "AIREDALE",
                     name: "airedale",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "BOXER",
                     name: "boxer",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "AFFENPINSCHER",
                     name: "affenpinscher",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "AKITA",
                     name: "akita",
                     img: "",
                     images: []
                 },
                 {
+                    Name: "DOBERMAN",
                     name: "doberman",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "BRIARD",
                     name: "briard",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "WHIPPET",
                     name: "whippet",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "LHASA",
                     name: "lhasa",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "ESKIMO",
                     name: "eskimo",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "SALUKI",
                     name: "saluki",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "DINGO",
                     name: "dingo",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "MALTESE",
                     name: "maltese",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "VIZSLA",
                     name: "vizsla",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "AFRICAN",
                     name: "african",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "PAPILLON",
                     name: "papillon",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "PEMBROKE",
                     name: "pembroke",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "PITBULL",
                     name: "pitbull",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "REDBONE",
                     name: "redbone",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "CHOW",
                     name: "chow",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "CAIRN",
                     name: "cairn",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "HAVANESE",
                     name: "havanese",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "KELPIE",
                     name: "kelpie",
                     img: "",
                     images: []
                 },
                 {
+                    Name : "LABRADOR",
                     name: "labrador",
                     img: "",
                     images: []
                 },
-
             ]
         }
 
@@ -187,7 +210,7 @@ export default class Home extends React.Component {
                                 {this.state.data.map((item,i) => (
                                     <div className={style.div} key={item.name}>
                                         <img  className={style.img} src={item.img} alt={i} />
-                                        <h2 className={style.dogname}>{item.name}</h2>
+                                        <h2 className={style.dogname}>{item.Name}</h2>
                                         <button className={style.more} id={item.name} onClick={this.toggleStage}>more info</button>
                                     </div>
                                 ))}

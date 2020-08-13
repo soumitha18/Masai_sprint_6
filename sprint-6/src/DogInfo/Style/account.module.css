@@ -122,3 +122,64 @@ input:hover{
     height:100px;
     margin-top: 25%
 }
+
+.hr{
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.text{
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin-left: 12%;
+}
+
+.flex > div:nth-child(1){
+    width: 30%;
+}
+
+.dogInfo{
+    width: 70%;
+}
+
+.dogInfo > h2{
+    margin-bottom: 0%;
+}
+
+.dogInfo > small{
+    margin-top: 0%;
+}
+
+.dogImg{
+    width: 300px;
+    height: 300px;
+    border-radius:150px ;
+}
+
+.dogInfo > p > span{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.dogInfo > button{
+    background-color: white;
+    border: 1px solid rgb(4, 4, 88);
+    color: rgb(4, 4, 88);
+    padding: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 3%;
+    margin-left: 70%;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+
+.dogInfo > button:hover{
+    color: white;
+    background-color: rgb(4, 4, 88);
+}

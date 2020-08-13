@@ -39,7 +39,7 @@ export default class MoreInfo extends React.Component {
                             (item.name === this.state.name)
                                 ?
                                 <div style={{ textAlign: "center", paddingLeft: "20%", paddingRight: "20%" }} key={item.name}>
-                                    <h1 style={{ marginBottom: "0%" , textDecoration:"underline"}}>{item.name}</h1>
+                                    <h1 style={{ marginBottom: "0%" , textDecoration:"underline"}}>{item.Name}</h1>
                                     <small style={{ marginTop: "0%" }}>{item.Temperament}</small>
                                     <p><span style={{ fontWeight: "bolder" }}>Colours : </span> {item.Colors}</p>
                                     <p><span style={{ fontWeight: "bolder" }}>Speed : </span> {item.Speed}</p>

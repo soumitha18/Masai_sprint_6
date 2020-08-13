@@ -61,7 +61,7 @@ export default class Main extends React.Component {
                             ?
                             <Dog  onClick={this.handleUser}/>
                             :
-                            <Account dogName={this.state.active} />
+                            <Account dogName={this.state.active} handle={this.handleHome} />
                 }
 
             </>

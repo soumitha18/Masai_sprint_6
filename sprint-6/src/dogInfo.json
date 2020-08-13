@@ -1,5 +1,6 @@
 [
     {
+        "Name" : "HOUND",
         "name":"hound",
         "Daily sleep":"18 hours",
         "Speed":"40 Km/h to 56 Km/h",
@@ -9,6 +10,7 @@
     
     },
     {
+        "Name" : "AIREDALE",
         "name":"airedale",
         "Temperament": "Intelligent, Outgoing, Alert, Friendly, Confident, Courageous",
         "Speed":"40 Km/h to 56 Km/h",
@@ -17,6 +19,7 @@
     
     },
     {
+        "Name" : "BOXER",
         "name":"boxer",
         "Temperament": "Devoted, Energetic, Cheerful, Intelligent, Fearless, Loyal, Bright, Playful, Friendly, Confident, Calm, Brave ",
         "Colors": "White, Brindle, Fawn",
@@ -25,6 +28,7 @@
     
     },
     {
+        "Name" : "AFFENPINSCHER",
         "name":"affenpinscher",
         "Temperament": "Stubborn, Curious, Playful, Active, Adventurous, Fun-loving",
         "Colors": "Black, Tan, Grey, Silver, Red, Belge",
@@ -33,6 +37,7 @@
     
     },
     {
+        "Name" : "AKITA",
         "name":"akita",
         "Temperament": "Devoted, Energetic, Cheerful, Intelligent, Fearless, Loyal, Bright, Playful, Friendly, Confident, Calm, Brave ",
         "Colors": "White, Brindle, Fawn",
@@ -41,6 +46,7 @@
     
     },
     {
+        "Name" : "DOBERMAN",
         "name":"doberman",
         "Temperament": "Obedient, Energetic, Intelligent, Fearless, Loyal, Alert, Confident",
         "Colors": " White, Black, Fawn, Red, Black & Rust, Blue, Red & Rust, Fawn & Rust, Blue & Rus",
@@ -49,6 +55,7 @@
     
     },
     {
+        "Name" : "BRIARD",
         "name":"briard",
         "Temperament": "Obedient, Energetic, Intelligent, Fearless, Loyal, Alert, Confident",
         "Colors": " Black, White, Tawny, Grey, Black & Tawny, Black & Gray",
@@ -57,6 +64,7 @@
     
     },
     {
+        "Name" : "WHIPPET",
         "name":"whippet",
         "Temperament": "Obedient, Energetic, Intelligent, Fearless, Loyal, Alert, Confident",
         "Colors": " Black, White, Tawny, Grey, Black & Tawny, Black & Gray",
@@ -66,6 +74,7 @@
     
     },
     {
+        "Name" : "LHASA",
         "name":"lhasa",
         "Temperament": "Obedient, Devoted, Energetic, Lively, Intelligent, Steady, Fearless, Spirited, Assertive, Alert, Playful, Friendly",
         "Colors": " Black, White, Dark Grizzle, Honey (Color), Sandy, Golden, Brown",
@@ -75,6 +84,7 @@
     
     },
     {
+        "Name" : "ESKIMO",
         "name":"eskimo",
         "Temperament": "Intelligent, Reserved, Alert, Friendly, Protective",
         "Colors": " White, Biscuit",
@@ -84,6 +94,7 @@
     
     },
     {
+        "Name" : "SALUKI",
         "name":"saluki",
         "Temperament": "Aloof, Intelligent, Reserved, Quiet",
         "Colors": " White, Biscuit",
@@ -93,6 +104,7 @@
     
     },
     {
+        "Name" : "DINGO",
         "name":"dingo",
         "Temperament": " Charming, Keen, Fearless, Alert, Confident, Faithful",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -102,6 +114,7 @@
     
     },
     {
+        "Name" : "MALTESE",
         "name":"maltese",
         "Temperament": " Charming, Keen, Fearless, Alert, Confident, Faithful",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -110,6 +123,7 @@
         "Description":"Maltese are affectionate toy dogs weighing less than seven pounds, covered by a long, straight, silky coat. ... They make alert watchdogs who are fearless in a charming toy-dog way, and they are game little athletes on the agility course. Maltese are low-shedding, long-lived, and happy to make new friends of all ages"
     },
     {
+        "Name" : "VIZSLA",
         "name":"vizsla",
         "Temperament": " Charming, Keen, Fearless, Alert, Confident, Faithful",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -120,6 +134,7 @@
     },
     
     {
+        "Name" : "AFRICAN",
         "name":"african",
         "Temperament": " Charming, Keen, Fearless, Alert, Confident, Faithful",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -129,6 +144,7 @@
     
     },
     {
+        "Name" : "PAPILLON",
         "name":"papillon",
         "Temperament": " Charming, Keen, Fearless, Alert, Confident, Faithful",
         "Colors": " White, White & Chocolate, Fawn & White, Sable, Black & White, Red & White",
@@ -138,6 +154,7 @@
     
     },
     {
+        "Name" : "PEMBROKE",
         "name":"pembroke",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -147,6 +164,7 @@
     
     },
     {
+        "Name" : "PITBULL",
         "name":"pitbull",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -156,6 +174,7 @@
     
     },
     {
+        "Name" : "REDBONE",
         "name":"redbone",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -165,6 +184,7 @@
     
     },
     {
+        "Name" : "CHOW",
         "name":"chow",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -175,6 +195,7 @@
     },
 
     {
+        "Name" : "CAIRN",
         "name":"cairn",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -184,6 +205,7 @@
     
     },
     {
+        "Name" : "HAVANESA",
         "name":"havanese",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -193,6 +215,7 @@
     
     },
     {
+        "Name" : "KELPIE",
         "name":"kelpie",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
@@ -200,7 +223,9 @@
         "Lifespan":"12 - 15 years",
         "Description":"He has a natural instinct and aptitude for working in sheep, whether it be in open fields or enclosed yards. This breed originated from Collie type dogs imported from Scotland, but was developed to withstand the harsh heat and dry conditions of the vast open spaces of Australia."
     
-    }, {
+    }, 
+    {
+        "Name" : "LABRADOR",
         "name":"labrador",
         "Temperament": "Energetic, Intelligent, Alert, Happy, Friendly",
         "Colors": " Red Sesame, Black & Tan, Cream, Black Sesame, Sesame, Red",
