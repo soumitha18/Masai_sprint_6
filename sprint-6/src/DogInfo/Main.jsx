@@ -47,7 +47,7 @@ export default class Main extends React.Component {
         return (
             <>
                 <div className={style.nav}>
-                    <span className={style.logo}>Dogiee</span>
+                    <span className={style.logo}>Dog Galore</span>
                     <button className={this.state.home ? style.active1 : style.btn1} onClick={this.handleHome}>HOME</button>
                     <button className={this.state.dog ? style.active : style.btn2} onClick={this.handleDogs}>DOGS</button>
                     <button className={this.state.account ? style.active : style.btn3} onClick={this.handleUser}>USER</button>

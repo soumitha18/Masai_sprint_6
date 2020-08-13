@@ -174,7 +174,7 @@ input:hover{
     padding-left: 5%;
     padding-right: 5%;
     margin-top: 3%;
-    margin-left: 70%;
+    margin-left: 40%;
     border-radius: 20px;
     font-weight: bolder;
 }
@@ -182,4 +182,20 @@ input:hover{
 .dogInfo > button:hover{
     color: white;
     background-color: rgb(4, 4, 88);
+}
+
+.dogInfo > span{
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.dogInfo > em{
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(4, 4, 88);
+}
+
+.dogInfo > em:hover{
+    font-size: 40px;
+    color: red;
 }
