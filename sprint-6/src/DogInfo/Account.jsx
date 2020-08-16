@@ -94,8 +94,6 @@ export default class Account extends React.Component {
             address: "",
         })
     }
-
-<<<<<<< HEAD
     confirm = () => {
         this.setState({
             payment: true
@@ -111,9 +109,6 @@ export default class Account extends React.Component {
         alert("Thanks For Visiting!")
         this.props.handle()
     }
-
-=======
->>>>>>> 8fae08b020f24639eb527dc31ef5807db843a116
     componentDidMount() {
         if (this.state.active !== "") {
             axios.get(`https://dog.ceo/api/breed/${this.state.active}/images/random`)
@@ -182,7 +177,6 @@ export default class Account extends React.Component {
                                     <h3>{loginUser[0].email}</h3>
                                     <h4>Address : {loginUser[0].address}</h4>
                                 </div>
-<<<<<<< HEAD
                                 <hr className={style.hr} />
                                 <h2 className={style.text}>Adopted Dog Details</h2>
                                 <div className={style.flex}>
@@ -198,18 +192,8 @@ export default class Account extends React.Component {
                                         <span>Price : </span><em>₹{dogInfo[0].prize}</em> only
                                             <button onClick={this.confirm}>Confirm</button>
                                     </div>
-=======
-                            </div>
-                            <hr />
-                            <div>
-                                <div>
-                                    <img />
                                 </div>
-                                <div>
-                                    
->>>>>>> 8fae08b020f24639eb527dc31ef5807db843a116
-                                </div>
-                            </div>
+                            </div> 
                         </div>
                 }
             </div>
