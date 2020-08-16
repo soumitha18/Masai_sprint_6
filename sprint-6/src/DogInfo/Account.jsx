@@ -109,7 +109,7 @@ export default class Account extends React.Component {
     }
 
     cancel = () =>{
-        alert("Thanks For Watching!")
+        alert("Thanks For Visiting!")
         this.props.handle()
     }
 
@@ -198,7 +198,7 @@ export default class Account extends React.Component {
                                         <p><span>Colors Available :</span> {dogInfo[0].Colors} </p>
                                         <p><span>LifeSpan : </span>{dogInfo[0].Lifespan}</p>
                                         <p>{dogInfo[0].Description}</p>
-                                        <span>Prize : </span><em>₹{dogInfo[0].prize}</em> only
+                                        <span>Price : </span><em>₹{dogInfo[0].prize}</em> only
                                             <button onClick={this.confirm}>Confirm</button>
                                     </div>
                                 </div>
