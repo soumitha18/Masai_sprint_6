@@ -40,4 +40,7 @@ We are providing following features:
 3.You Can check all information about selected Dog
 
 
-we are showing Flow Chart for better understanding
+#Image 
+!()<img src="photos/dog-galore.png">
+
+
